@@ -22,6 +22,9 @@
 		1DEECB47180B484300C20EAD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEECB2B180B484300C20EAD /* CoreData.framework */; };
 		1DEECB4F180B484300C20EAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DEECB4D180B484300C20EAD /* InfoPlist.strings */; };
 		1DEECB51180B484300C20EAD /* VoclTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEECB50180B484300C20EAD /* VoclTests.m */; };
+		1DEECB5B180B494F00C20EAD /* Storyboard-Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DEECB5A180B494F00C20EAD /* Storyboard-Authentication.storyboard */; };
+		1DEECB61180B49E700C20EAD /* VCLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEECB60180B49E700C20EAD /* VCLLoginViewController.m */; };
+		DDAA02AA1F2C467688903475 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C6FD441F1B43BF9B7B1600 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		1DEECB4C180B484300C20EAD /* VoclTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoclTests-Info.plist"; sourceTree = "<group>"; };
 		1DEECB4E180B484300C20EAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1DEECB50180B484300C20EAD /* VoclTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoclTests.m; sourceTree = "<group>"; };
+		1DEECB5A180B494F00C20EAD /* Storyboard-Authentication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Storyboard-Authentication.storyboard"; sourceTree = "<group>"; };
+		1DEECB5F180B49E700C20EAD /* VCLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCLLoginViewController.h; sourceTree = "<group>"; };
+		1DEECB60180B49E700C20EAD /* VCLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLLoginViewController.m; sourceTree = "<group>"; };
+		70C6FD441F1B43BF9B7B1600 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2603B7A0CE465F907769EF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,7 @@
 				1DEECB2C180B484300C20EAD /* CoreData.framework in Frameworks */,
 				1DEECB2A180B484300C20EAD /* UIKit.framework in Frameworks */,
 				1DEECB26180B484300C20EAD /* Foundation.framework in Frameworks */,
+				DDAA02AA1F2C467688903475 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +97,7 @@
 				1DEECB4A180B484300C20EAD /* VoclTests */,
 				1DEECB24180B484300C20EAD /* Frameworks */,
 				1DEECB23180B484300C20EAD /* Products */,
+				FB2603B7A0CE465F907769EF /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +118,7 @@
 				1DEECB29180B484300C20EAD /* UIKit.framework */,
 				1DEECB2B180B484300C20EAD /* CoreData.framework */,
 				1DEECB43180B484300C20EAD /* XCTest.framework */,
+				70C6FD441F1B43BF9B7B1600 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +126,9 @@
 		1DEECB2D180B484300C20EAD /* Vocl */ = {
 			isa = PBXGroup;
 			children = (
+				1DEECB5E180B49D100C20EAD /* View */,
+				1DEECB5D180B49CA00C20EAD /* View Controllers */,
+				1DEECB5C180B49C300C20EAD /* Model */,
 				1DEECB36180B484300C20EAD /* VCLAppDelegate.h */,
 				1DEECB37180B484300C20EAD /* VCLAppDelegate.m */,
 				1DEECB3C180B484300C20EAD /* Images.xcassets */,
@@ -153,6 +167,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1DEECB5C180B49C300C20EAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1DEECB5D180B49CA00C20EAD /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1DEECB5F180B49E700C20EAD /* VCLLoginViewController.h */,
+				1DEECB60180B49E700C20EAD /* VCLLoginViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1DEECB5E180B49D100C20EAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1DEECB5A180B494F00C20EAD /* Storyboard-Authentication.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DEECB54180B484300C20EAD /* Build configuration list for PBXNativeTarget "Vocl" */;
 			buildPhases = (
+				AF7C14B40CA84706AFB74E43 /* Check Pods Manifest.lock */,
 				1DEECB1E180B484300C20EAD /* Sources */,
 				1DEECB1F180B484300C20EAD /* Frameworks */,
 				1DEECB20180B484300C20EAD /* Resources */,
+				3704C585B71E4DDAA9C25017 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DEECB5B180B494F00C20EAD /* Storyboard-Authentication.storyboard in Resources */,
 				1DEECB32180B484300C20EAD /* InfoPlist.strings in Resources */,
 				1DEECB3D180B484300C20EAD /* Images.xcassets in Resources */,
 			);
@@ -244,11 +285,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3704C585B71E4DDAA9C25017 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF7C14B40CA84706AFB74E43 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1DEECB1E180B484300C20EAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DEECB61180B49E700C20EAD /* VCLLoginViewController.m in Sources */,
 				1DEECB38180B484300C20EAD /* VCLAppDelegate.m in Sources */,
 				1DEECB34180B484300C20EAD /* main.m in Sources */,
 				1DEECB3B180B484300C20EAD /* Vocl.xcdatamodeld in Sources */,
@@ -367,6 +442,7 @@
 		};
 		1DEECB55180B484300C20EAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB2603B7A0CE465F907769EF /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -380,6 +456,7 @@
 		};
 		1DEECB56180B484300C20EAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB2603B7A0CE465F907769EF /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -452,6 +529,7 @@
 				1DEECB56180B484300C20EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DEECB57180B484300C20EAD /* Build configuration list for PBXNativeTarget "VoclTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +538,7 @@
 				1DEECB59180B484300C20EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

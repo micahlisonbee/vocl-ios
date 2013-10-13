@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DEECB26180B484300C20EAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEECB25180B484300C20EAD /* Foundation.framework */; };
+		1DEECB28180B484300C20EAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEECB27180B484300C20EAD /* CoreGraphics.framework */; };
+		1DEECB2A180B484300C20EAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEECB29180B484300C20EAD /* UIKit.framework */; };
+		1DEECB2C180B484300C20EAD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEECB2B180B484300C20EAD /* CoreData.framework */; };
+		1DEECB32180B484300C20EAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DEECB30180B484300C20EAD /* InfoPlist.strings */; };
+		1DEECB34180B484300C20EAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEECB33180B484300C20EAD /* main.m */; };
+		1DEECB38180B484300C20EAD /* VCLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEECB37180B484300C20EAD /* VCLAppDelegate.m */; };
+		1DEECB3B180B484300C20EAD /* Vocl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DEECB39180B484300C20EAD /* Vocl.xcdatamodeld */; };
+		1DEECB3D180B484300C20EAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEECB3C180B484300C20EAD /* Images.xcassets */; };
+		1DEECB44180B484300C20EAD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEECB43180B484300C20EAD /* XCTest.framework */; };
+		1DEECB45180B484300C20EAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEECB25180B484300C20EAD /* Foundation.framework */; };
+		1DEECB46180B484300C20EAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEECB29180B484300C20EAD /* UIKit.framework */; };
+		1DEECB47180B484300C20EAD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEECB2B180B484300C20EAD /* CoreData.framework */; };
+		1DEECB4F180B484300C20EAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DEECB4D180B484300C20EAD /* InfoPlist.strings */; };
+		1DEECB51180B484300C20EAD /* VoclTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEECB50180B484300C20EAD /* VoclTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DEECB48180B484300C20EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DEECB1A180B484300C20EAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DEECB21180B484300C20EAD;
+			remoteInfo = Vocl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DEECB22180B484300C20EAD /* Vocl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vocl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DEECB25180B484300C20EAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DEECB27180B484300C20EAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1DEECB29180B484300C20EAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1DEECB2B180B484300C20EAD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1DEECB2F180B484300C20EAD /* Vocl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vocl-Info.plist"; sourceTree = "<group>"; };
+		1DEECB31180B484300C20EAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DEECB33180B484300C20EAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DEECB35180B484300C20EAD /* Vocl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vocl-Prefix.pch"; sourceTree = "<group>"; };
+		1DEECB36180B484300C20EAD /* VCLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCLAppDelegate.h; sourceTree = "<group>"; };
+		1DEECB37180B484300C20EAD /* VCLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCLAppDelegate.m; sourceTree = "<group>"; };
+		1DEECB3A180B484300C20EAD /* Vocl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vocl.xcdatamodel; sourceTree = "<group>"; };
+		1DEECB3C180B484300C20EAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1DEECB42180B484300C20EAD /* VoclTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoclTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DEECB43180B484300C20EAD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1DEECB4C180B484300C20EAD /* VoclTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoclTests-Info.plist"; sourceTree = "<group>"; };
+		1DEECB4E180B484300C20EAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DEECB50180B484300C20EAD /* VoclTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoclTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DEECB1F180B484300C20EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEECB28180B484300C20EAD /* CoreGraphics.framework in Frameworks */,
+				1DEECB2C180B484300C20EAD /* CoreData.framework in Frameworks */,
+				1DEECB2A180B484300C20EAD /* UIKit.framework in Frameworks */,
+				1DEECB26180B484300C20EAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEECB3F180B484300C20EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEECB44180B484300C20EAD /* XCTest.framework in Frameworks */,
+				1DEECB47180B484300C20EAD /* CoreData.framework in Frameworks */,
+				1DEECB46180B484300C20EAD /* UIKit.framework in Frameworks */,
+				1DEECB45180B484300C20EAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DEECB19180B484300C20EAD = {
+			isa = PBXGroup;
+			children = (
+				1DEECB2D180B484300C20EAD /* Vocl */,
+				1DEECB4A180B484300C20EAD /* VoclTests */,
+				1DEECB24180B484300C20EAD /* Frameworks */,
+				1DEECB23180B484300C20EAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DEECB23180B484300C20EAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DEECB22180B484300C20EAD /* Vocl.app */,
+				1DEECB42180B484300C20EAD /* VoclTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DEECB24180B484300C20EAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DEECB25180B484300C20EAD /* Foundation.framework */,
+				1DEECB27180B484300C20EAD /* CoreGraphics.framework */,
+				1DEECB29180B484300C20EAD /* UIKit.framework */,
+				1DEECB2B180B484300C20EAD /* CoreData.framework */,
+				1DEECB43180B484300C20EAD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DEECB2D180B484300C20EAD /* Vocl */ = {
+			isa = PBXGroup;
+			children = (
+				1DEECB36180B484300C20EAD /* VCLAppDelegate.h */,
+				1DEECB37180B484300C20EAD /* VCLAppDelegate.m */,
+				1DEECB3C180B484300C20EAD /* Images.xcassets */,
+				1DEECB39180B484300C20EAD /* Vocl.xcdatamodeld */,
+				1DEECB2E180B484300C20EAD /* Supporting Files */,
+			);
+			path = Vocl;
+			sourceTree = "<group>";
+		};
+		1DEECB2E180B484300C20EAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DEECB2F180B484300C20EAD /* Vocl-Info.plist */,
+				1DEECB30180B484300C20EAD /* InfoPlist.strings */,
+				1DEECB33180B484300C20EAD /* main.m */,
+				1DEECB35180B484300C20EAD /* Vocl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DEECB4A180B484300C20EAD /* VoclTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DEECB50180B484300C20EAD /* VoclTests.m */,
+				1DEECB4B180B484300C20EAD /* Supporting Files */,
+			);
+			path = VoclTests;
+			sourceTree = "<group>";
+		};
+		1DEECB4B180B484300C20EAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DEECB4C180B484300C20EAD /* VoclTests-Info.plist */,
+				1DEECB4D180B484300C20EAD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DEECB21180B484300C20EAD /* Vocl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEECB54180B484300C20EAD /* Build configuration list for PBXNativeTarget "Vocl" */;
+			buildPhases = (
+				1DEECB1E180B484300C20EAD /* Sources */,
+				1DEECB1F180B484300C20EAD /* Frameworks */,
+				1DEECB20180B484300C20EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vocl;
+			productName = Vocl;
+			productReference = 1DEECB22180B484300C20EAD /* Vocl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DEECB41180B484300C20EAD /* VoclTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEECB57180B484300C20EAD /* Build configuration list for PBXNativeTarget "VoclTests" */;
+			buildPhases = (
+				1DEECB3E180B484300C20EAD /* Sources */,
+				1DEECB3F180B484300C20EAD /* Frameworks */,
+				1DEECB40180B484300C20EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DEECB49180B484300C20EAD /* PBXTargetDependency */,
+			);
+			name = VoclTests;
+			productName = VoclTests;
+			productReference = 1DEECB42180B484300C20EAD /* VoclTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DEECB1A180B484300C20EAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VCL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Street Technology, LLC";
+				TargetAttributes = {
+					1DEECB41180B484300C20EAD = {
+						TestTargetID = 1DEECB21180B484300C20EAD;
+					};
+				};
+			};
+			buildConfigurationList = 1DEECB1D180B484300C20EAD /* Build configuration list for PBXProject "Vocl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1DEECB19180B484300C20EAD;
+			productRefGroup = 1DEECB23180B484300C20EAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DEECB21180B484300C20EAD /* Vocl */,
+				1DEECB41180B484300C20EAD /* VoclTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DEECB20180B484300C20EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEECB32180B484300C20EAD /* InfoPlist.strings in Resources */,
+				1DEECB3D180B484300C20EAD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEECB40180B484300C20EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEECB4F180B484300C20EAD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DEECB1E180B484300C20EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEECB38180B484300C20EAD /* VCLAppDelegate.m in Sources */,
+				1DEECB34180B484300C20EAD /* main.m in Sources */,
+				1DEECB3B180B484300C20EAD /* Vocl.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEECB3E180B484300C20EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEECB51180B484300C20EAD /* VoclTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DEECB49180B484300C20EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DEECB21180B484300C20EAD /* Vocl */;
+			targetProxy = 1DEECB48180B484300C20EAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DEECB30180B484300C20EAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DEECB31180B484300C20EAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DEECB4D180B484300C20EAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DEECB4E180B484300C20EAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEECB52180B484300C20EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEECB53180B484300C20EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DEECB55180B484300C20EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vocl/Vocl-Prefix.pch";
+				INFOPLIST_FILE = "Vocl/Vocl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1DEECB56180B484300C20EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vocl/Vocl-Prefix.pch";
+				INFOPLIST_FILE = "Vocl/Vocl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1DEECB58180B484300C20EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vocl.app/Vocl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vocl/Vocl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VoclTests/VoclTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1DEECB59180B484300C20EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vocl.app/Vocl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vocl/Vocl-Prefix.pch";
+				INFOPLIST_FILE = "VoclTests/VoclTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEECB1D180B484300C20EAD /* Build configuration list for PBXProject "Vocl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEECB52180B484300C20EAD /* Debug */,
+				1DEECB53180B484300C20EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEECB54180B484300C20EAD /* Build configuration list for PBXNativeTarget "Vocl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEECB55180B484300C20EAD /* Debug */,
+				1DEECB56180B484300C20EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DEECB57180B484300C20EAD /* Build configuration list for PBXNativeTarget "VoclTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEECB58180B484300C20EAD /* Debug */,
+				1DEECB59180B484300C20EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1DEECB39180B484300C20EAD /* Vocl.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1DEECB3A180B484300C20EAD /* Vocl.xcdatamodel */,
+			);
+			currentVersion = 1DEECB3A180B484300C20EAD /* Vocl.xcdatamodel */;
+			path = Vocl.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1DEECB1A180B484300C20EAD /* Project object */;
+}
